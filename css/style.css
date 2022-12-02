@@ -1,0 +1,94 @@
+/*********************************************************/
+/*     Web del STARSET - hoja de estilo de index         */
+/*                Autor: Marco Valente                   */
+/*               Version 1.0 - 1/12/2022                 */
+/******************************************************   /
+
+/******************** estilo general ******************** */
+/*******************************NAVBAR**********************//* Add a black background color to the top navigation */
+
+/*******************************NAVBAR**********************/
+
+/*********************************WRAPPER/BODY********************/
+*{box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{background-color: black;
+        color: aliceblue;
+        overflow-x: hidden;
+
+    }
+
+/*********************************WRAPPER/BODY********************/
+
+/***********************************HERO*************************/
+#wrapper{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+#navbar{
+    background-color: rgb(62, 0, 0);
+}
+#hero{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    margin: auto
+}
+
+#logo img{
+    width: 98%;
+}
+
+#albums{
+    height: 100vh;
+    background-color:green;
+    color: #000;
+    margin: auto
+}
+
+#tour{
+    height: 100vh;
+    background-color:rgb(216, 123, 9);
+    color: #000;
+    margin: auto 
+}
+
+#photos{
+    height: 100vh;
+    background-color: blueviolet;
+    color:white;
+    margin: auto;
+}
+#bio{
+    height: 70vh;
+    background-color:aquamarine;
+    margin: auto;
+}
+/*videos section*/
+.video{
+    margin: auto;
+    height: 30vh;
+}
+.frame{
+    min-width: 100%;
+    min-height: 100%;
+    border: none;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+/*videos section*/
+
+footer{
+    height: 20vh;
+}
+/***********************************HERO************************/
+
+/*******************************Media Quieries***********************************/
+
+/*******************************Media Quieries***********************************/
