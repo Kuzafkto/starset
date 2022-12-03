@@ -15,7 +15,8 @@
     padding:0;
 }
 
-body{background-color: black;
+body{ 
+    background-color: black;
         color: aliceblue;
         overflow-x: hidden;
 
@@ -34,27 +35,56 @@ body{background-color: black;
 }
 #hero{
     height: 100vh;
-    background-color: black;
+    background-image:url('./../img/CoverImage.jpg');
+    background-size: cover;
+    background-position: center;
     color: white;
-    margin: auto
+    margin: auto;
 }
 
+#logo {
+    width: 70vw;
+    opacity: 0.85;
+    text-align: top;
+    margin: auto;
+}
 #logo img{
-    width: 98%;
+    width: 100%;
+}
+#call{
+    text-align: center;
+    margin: auto;
+    width: 50vw;
+}
+#callink{
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: rgb(255, 255, 255);
+    background: #ff8d6b;
+    padding: 5%;
+    font-size:1.1em;
+
+
 }
 
 #albums{
     height: 100vh;
     background-color:green;
     color: #000;
-    margin: auto
+    margin: auto;
 }
 
 #tour{
     height: 100vh;
     background-color:rgb(216, 123, 9);
     color: #000;
-    margin: auto 
+    margin: auto;
 }
 
 #photos{
