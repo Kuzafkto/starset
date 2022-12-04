@@ -19,7 +19,6 @@
     padding: 0;
 }
 html{
-    
   height: -webkit-fill-available;
 }
 
@@ -72,7 +71,6 @@ body {
 #hero {
     
     min-height: 100vh;
-    min-height: -webkit-fill-available;
     background-image: url('./../img/CoverImage.jpg');
     background-size: cover;
     background-position: center;
@@ -158,6 +156,8 @@ body {
     font-weight: bold;
     opacity: 0.9;
     text-align: center;
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
 }
 
 
@@ -204,6 +204,7 @@ body {
 .transmissions{
     font-family: Agency;
     text-align: center;
+    font-size: 1.8em;
 
 }
 
@@ -220,6 +221,7 @@ body {
 .horizons{
     font-family: URW-DIN;
     text-align: center;
+    font-size: 1.1em;
 }
 
 /* On mouse-over, add a deeper shadow */
