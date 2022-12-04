@@ -10,51 +10,113 @@
 </head>
 
 <body>
-   <div id="wrapper">
-    <section class="section">
-        <div id="hero">
-            <nav id="navbar">
-                navbar
-            </nav>
-            <div id="logo"><img src="./img/STARSET-Solid.png" alt="STARSET logo">
-                
-            </div>
-            
-            <!--hero section(loop video + text)
+    <div id="wrapper">
+        <section class="section">
+            <div id="hero">
+                <nav id="navbar">
+                    navbar
+                </nav>
+                <div id="logo"><img src="./img/STARSET-Solid.png" alt="STARSET logo">
+
+                </div>
+
+                <!--hero section(loop video + text)
             STARSET-->
-            <div id="call">
-                <a href="#" id="callink">Tickets</a>    
-                <!--call to action (buy tickets )-->
+                <div id="call">
+                    <a href="#" id="callink">FIND<br />TICKETS</a>
+                    <!--call to action (buy tickets )-->
+                </div>
+
             </div>
-       
-    </div>
-    </section>
-        
+        </section>
+        <!--ALBUMS (cards with image and/or text and a button(linking to Spotify,ITunes,etc))-->
+
         <section class="section">
             <div id="albums">
-                ALBUMS (cards with image and/or text and a button(linking to Spotify,ITunes,etc))
-            </div>
-            </section>
-        
-        <section id="photos">PHOTOS SLIDER with:(grid with an on click (make it full size of the section and make it an slider) (remember to add the X to return to grid mode))</section>
+                <div class="grid4">
+                    <div class="col4">
+                        <div class="card">
+                            <div class="cover transmissions">
+                                <img src="./img/albums/transmissions.png" alt="">
+                                TRANSMISSIONS
+                            </div>
+                            <div class="mediarow">
+                                <div class="mediaicon">icon1</div>
+                                <div class="mediaicon">icon2</div>
+                                <div class="mediaicon">icon3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card">
+                            <div class="cover vessels">
+
+                            <img src="./img/albums/vessels.jpg" alt="">
+                            VESSELS
+                        </div>
+                            <div class="mediarow">
+                                <div class="mediaicon">icon1</div>
+                                <div class="mediaicon">icon2</div>
+                                <div class="mediaicon">icon3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card">
+                            <div class="cover divisions">
+                            <img src="./img/albums/divisions.jpg" alt="">
+                            DIVISIONS
+                        </div>
+                            <div class="mediarow">
+                                <div class="mediaicon">icon1</div>
+                                <div class="mediaicon">icon2</div>
+                                <div class="mediaicon">icon3</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col4">
+                        <div class="card">
+                            <div class="cover horizons">
+                            <img src="./img/albums/horizons.jpg" alt="">
+                            HORIZONS
+                            
+                        </div>
+                            <div class="mediarow">
+                                <div class="mediaicon">icon1</div>
+                                <div class="mediaicon">icon2</div>
+                                <div class="mediaicon">icon3</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="photos">PHOTOS SLIDER with:(grid with an on click (make it full size of the section and make it an
+            slider) (remember to add the X to return to grid mode))</section>
         <section>
             <section>
                 <div id="tour">
                     TOUR STRIPES with=(BANDS, DATE, PLACE, HOUR)+BUY TICKETS BUTTON
                 </div>
-               </section> 
+            </section>
             <div class="video">
-                <iframe class="frame" src="https://www.youtube.com/embed/FuOm2GsXm9c?controls=0&vq=hd1080&autoplay=1&modestbranding=1&rel=0&iv_load_policy=3&showinfo=0" title="Starset Live" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                <iframe class="frame"
+                    src="https://www.youtube.com/embed/FuOm2GsXm9c?controls=0&vq=hd1080&autoplay=1&modestbranding=1&rel=0&iv_load_policy=3&showinfo=0"
+                    title="Starset Live" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
                 <!--VIDEOS (ONE SLIDER WITH VIDEOS (try to add embebbed youtube code, otherwise it will have a huge delay charging))-->
             </div>
-           </section>
+        </section>
         <section>
             <div id="bio">
                 BIO HORIZONTAL SCROLL WITH->Cards with rounded image + text
             </div>
-            </section>
+        </section>
         <footer>SOCIAL MEDIA and CREDITS</footer>
     </div>
 </body>
 <script src="./js/index.js"></script>
+
 </html>
