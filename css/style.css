@@ -156,8 +156,8 @@ body {
     font-weight: bold;
     opacity: 0.9;
     text-align: center;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 
@@ -204,25 +204,30 @@ body {
 .transmissions{
     font-family: Agency;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.2em;
 
 }
 
 .vessels{
     font-family: Jaapokkienchance;
     text-align: center;
+    font-size: 1.2em;
+
 }
 
 .divisions{
     font-family: OCR-Regular;
     text-align: center;
+    font-size: 1.2em;
+
 }
 
 .horizons{
     font-family: URW-DIN;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
+
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
@@ -230,15 +235,25 @@ body {
 }
 
 .mediarow{
+    width: 100%;
     text-align: center;
 }
 
 .mediaicon{
     display: inline-block;
-    width: 28.33%;
-    padding: 2.5%;
+    width: /*31*/31%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 3%;
+    
+}
+
+.mediaicon img{
+    width: 100%;
 }
 /*ALBUMS SECTION*/
+
+/************************************************TOURS SECTION******************************************/
 
 #tour {
     height: 100vh;
@@ -246,6 +261,8 @@ body {
     color: #000;
     margin: auto;
 }
+/************************************************TOURS SECTION******************************************/
+
 
 /************************************************PHOTOS SECTION******************************************/
 #photos {
