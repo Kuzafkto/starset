@@ -1,14 +1,3 @@
-
-function myfunction(){
-    $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
-  
-    // If you want to keep full screen on window resize
-    $(window).resize(function(){
-      $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
-    });
-  };
-
-
   /*SLIDESHOW CODE*/
   let slideIndex = 1;
 showSlides(slideIndex);
