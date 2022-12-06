@@ -31,15 +31,13 @@
             </div>
         </section>
         <!--ALBUMS (cards with image and/or text and a button(linking to Spotify,ITunes,etc))-->
-
         <section class="section">
             <div id="albums">
-                <div class="grid4">
-                    <div class="col4">
+                <div id="cardcol">                    
                         <div class="card">
                             <div class="cover transmissions">
-                                <img src="./img/albums/transmissions.png" alt="">
-                                TRANSMISSIONS
+                                <img src="./img/albums/transmissions.png" alt="">                        
+                                <p>TRANSMISSIONS</p>
                                 <div class="coverinfo">
                                     Release: July 8th, 2014<br>
                                     Length: 60:00
@@ -53,13 +51,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col4">
+                   
                         <div class="card">
                             <div class="cover vessels">
 
                                 <img src="./img/albums/vessels.jpg" alt="">
-                                VESSELS
+                                <p>VESSELS</p>
                                 <div class="coverinfo">
                                     Release: January 20th, 2017<br>
                                     Length: 70:21
@@ -73,8 +70,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col4">
+                
+                   
                         <div class="card">
                             <div class="cover divisions">
                                 <img src="./img/albums/divisions.jpg" alt="">
@@ -92,8 +89,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col4">
+      
                         <div class="card">
                             <div class="cover horizons">
                                 <img src="./img/albums/horizons.jpg" alt="">
@@ -110,71 +106,50 @@
                                 <div class="mediaicon"><img src="./img/ituneslogo.png" alt=""></i>
                                 </div>
                             </div>
-
                         </div>
-                    </div>
                 </div>
+            </div>
         </section>
 
-
-        <!--PHOTOS SLIDER with:(grid with an on click (make it full size of the section and make it an
-            slider) (remember to add the X to return to grid mode))-->
+        <!---------------------------------------PHOTOS SECTION--------------------------------------------->
         <section id="photos">
             <!-- Slideshow container -->
             <div class="slideshow-container">
 
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides fade">
-                    <div class="numbertext">1 / 5</div>
                     <img src="./img/Slideshow/vertical5.png">
-                    <div class="text">Caption Text</div>
                 </div>
 
                 <div class="mySlides fade">
-                    <div class="numbertext">2 / 5</div>
                     <img src="./img/Slideshow/vertical6.png">
-                    <div class="text">Caption Two</div>
                 </div>
 
                 <div class="mySlides fade">
-                    <div class="numbertext">3 / 5</div>
                     <img src="./img/Slideshow/vertical2.png">
-                    <div class="text">Caption Three</div>
                 </div>
 
                 <div class="mySlides fade">
-                    <div class="numbertext">4 / 5</div>
                     <img src="./img/Slideshow/vertical3.png">
-                    <div class="text">Caption Three</div>
                 </div>
 
                 <div class="mySlides fade">
-                    <div class="numbertext">5 / 5</div>
                     <img src="./img/Slideshow/Theater_of_Living_Arts_Philadelphia.png">
-                    <div class="text">Caption fourr</div>
                 </div>
                 <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
             </div>
         </section>
+
+        <!---------------------------------------PHOTOS SECTION--------------------------------------------->
         <section>
-            <section>
                 <div id="tour">
                     TOUR STRIPES with=(BANDS, DATE, PLACE, HOUR)+BUY TICKETS BUTTON
                 </div>
             </section>
+            <section>
             <div class="video">
                 <iframe class="frame"
                     src="https://www.youtube.com/embed/-8nd2m9eV-E?rel=0&vq=hd720controls=1"
