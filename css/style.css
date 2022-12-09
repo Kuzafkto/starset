@@ -178,7 +178,6 @@ body {
     height: 200vh;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.55);
-
 }
 
 .card {
@@ -229,6 +228,7 @@ body {
  .coverinfo{
     font-family: axion;
     font-size: 0.8rem;
+    line-height: 1.6;
 }
 
 .mediarow{
@@ -246,6 +246,11 @@ body {
 }
 
 .mediaicon img{
+    width: 100%;
+}
+
+.mediaicon a{
+    height: 100%;
     width: 100%;
 }
 
@@ -278,13 +283,13 @@ body {
   }
   
   /* Hide the images by default */
-  .mySlides {
+  .mySlides1, .mySlides2 {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
   }
 
-  .mySlides img{
+  .mySlides1 img , .mySlides2 img {
     object-fit: cover;
     height:100vh;
     width: 100vw;
@@ -338,6 +343,31 @@ body {
     text-align: center;
   }
 
+  .prev2, .next2 {
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    width: 15%;
+    height: 85%;
+    padding-top: 50vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    -webkit-text-stroke: 0.8px black;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    text-align: center;
+  }
+
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover .next:hover {
@@ -360,12 +390,34 @@ body {
     to {opacity: 1}
   }
 /************************************************PHOTOS SECTION******************************************/
-
+/************************************************BIO SECTION**********************************************/
 #bio {
     height: 70vh;
     background-color: aquamarine;
     margin: auto;
 }
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    color: #000;
+  
+
+  }
+
+  .scrolling-wrapper .card {
+    display: inline-block;
+    height: 100vh;
+    width: 40vw;
+    border:2px solid black;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  /************************************************BIO SECTION**********************************************/
+
 
 /*videos section*/
 .video {
