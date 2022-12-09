@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Starset</title>
 </head>
@@ -14,9 +15,18 @@
     <div id="wrapper">
         <section class="section">
             <div id="hero">
-                <nav id="navbar">
-                    navbar
-                </nav>
+                <div class="topnav">
+                    <a href="#albums" class="active">Listen</a>
+                    <div id="myLinks">
+                      <a href="#about">About</a>
+                      <a href="#bio">Members</a>
+                      <a href="#media">Photos / Videos</a>
+                      <a href="https://www.ticketmaster.com/starset-tickets/artist/1936666">Find Your Tickets</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
                 <div id="logo"><img src="./img/STARSET-Solid.png" alt="STARSET logo">
 
                 </div>
@@ -28,6 +38,30 @@
                     <!--call to action (buy tickets )-->
                 </div>
 
+            </div>
+        </section>
+        <section>
+            <div id="tour">
+                TOUR STRIPES with=(BANDS, DATE, PLACE, HOUR)+BUY TICKETS BUTTON
+            </div>
+        </section>
+        <section id="bio">
+            <div id="biodiv">
+                <div class="scrolling-wrapper">
+                    <div class="card">
+                        <h2>re</h2>
+                    </div>
+                    <div class="card">
+                        <h2></h2>
+                    </div>
+                    <div class="card">
+                        <h2>Card</h2>
+                    </div>
+                    <div class="card">
+                        <h2>Card</h2>   
+                    </div>
+                </div>
+                <!--BIO HORIZONTAL SCROLL WITH->Cards with rounded image + text-->
             </div>
         </section>
         <!--ALBUMS (cards with image and/or text and a button(linking to Spotify,ITunes,etc))-->
@@ -89,7 +123,7 @@
                     <div class="card">
                         <div class="cover divisions">
                             <img src="./img/albums/divisions.jpg" alt="">
-                            DIVISIONS
+                            <p>DIVISIONS</p>
                             <div class="coverinfo">
                                 Release: September 13th, 2019<br>
                                 Length: 58:33
@@ -114,7 +148,7 @@
                     <div class="card">
                         <div class="cover horizons">
                             <img src="./img/albums/horizons.jpg" alt="">
-                            HORIZONS
+                            <p>HORIZONS</p> 
                             <div class="coverinfo">
                                 Release: January 20th, 2017<br>
                                 Length: 70:59
@@ -139,7 +173,7 @@
             </div>
         </section>
 
-        <!---------------------------------------PHOTOS SECTION--------------------------------------------->
+        <!---------------------------------------MEDIA SECTION--------------------------------------------->
         <section id="media">
             <div class="slideshow-container">
 
@@ -187,65 +221,10 @@
                 <a class="next" onclick="plusDivs(1,0)">&#10095;</a>
             </div>
         </section>
-            <!---------------------------------------PHOTOS SECTION--------------------------------------------->
+            <!---------------------------------------MEDIA SECTION--------------------------------------------->
 
-            <section>
-                <div class="video">
-                    <div class="slideshow-container">
-
-                        <div class="mySlides2 fade">
-                            <iframe class="frame"
-                                src="https://www.youtube.com/embed/FuOm2GsXm9c?rel=0&vq=hd720controls=1"
-                                title="Starset Live" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-
-                        <div class="mySlides2 fade">
-                            <iframe class="frame"
-                                src="https://www.youtube.com/embed/-8nd2m9eV-E?rel=0&vq=hd720controls=1"
-                                title="Starset Live" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-
-                        <div class="mySlides2 fade">
-                            <iframe class="frame"
-                                src="https://www.youtube.com/embed/ukhScTgjQDk?rel=0&vq=hd720controls=1"
-                                title="Starset Live" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                        <a class="prev2" onclick="plusDivs(-1,1)">&#10094;</a>
-                        <a class="next2" onclick="plusDivs(1,1)">&#10095;</a>
-                    </div>
-                </section>
-                    <!--VIDEOS (ONE SLIDER WITH VIDEOS (try to add embebbed youtube code, otherwise it will have a huge delay charging))-->
-        
-            <section>
-                <div id="tour">
-                    TOUR STRIPES with=(BANDS, DATE, PLACE, HOUR)+BUY TICKETS BUTTON
-                </div>
-            </section>
-                <section id="bio">
-                <div id="biodiv">
-                    <div class="scrolling-wrapper">
-                        <div class="card">
-                            <h2>re</h2>
-                        </div>
-                        <div class="card">
-                            <h2></h2>
-                        </div>
-                        <div class="card">
-                            <h2>Card</h2>
-                        </div>
-                        <div class="card">
-                            <h2>Card</h2>   
-                        </div>
-                    </div>
-                    <!--BIO HORIZONTAL SCROLL WITH->Cards with rounded image + text-->
-                </div>
-            </section>
+          
+                
             <footer>
                 <div id="footerdiv">Testeando</div>
             </footer>
