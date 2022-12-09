@@ -382,7 +382,7 @@ body {
   /* Fading animation */
   .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 0.8s;
   }
   
   @keyframes fade {
@@ -402,18 +402,66 @@ body {
     overflow-y: hidden;
     white-space: nowrap;
     color: #000;
+    background-image: url('../img/biocover.jpg');
+    background-size: cover;
+    background-position: center;
   
 
   }
 
   .scrolling-wrapper .card {
     display: inline-block;
-    height: 100vh;
-    width: 40vw;
+    height: 90vh;
+    width: 85vw;
     border:2px solid black;
     margin: 0;
     padding: 0;
     
+
+    /*test*/
+
+    animation: pulsate 1.5s infinite alternate;  
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #3A14F2,
+              0 0 0.8rem #3A14F2,
+              0 0 2.8rem #3A14F2,
+              inset 0 0 1.3rem #3A14F2; 
+  }
+  
+  @keyframes pulsate {
+      
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #3A14F2,
+        0 0 80px #3A14F2,
+        0 0 90px #3A14F2,
+        0 0 100px #3A14F2,
+        0 0 150px #3A14F2;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #3A14F2,
+      0 0 45px #3A14F2,
+      0 0 55px #3A14F2,
+      0 0 70px #3A14F2,
+      0 0 80px #3A14F2;
+  
+  }
+
+   /*test*/
   }
 
   /************************************************BIO SECTION**********************************************/
@@ -422,7 +470,7 @@ body {
 /*videos section*/
 .video {
     margin: auto;
-    height: 100vh;
+    height  : 100vh;
 }
 
 .frame {
@@ -438,7 +486,7 @@ body {
 /*videos section*/
 
 footer {
-    height: 20vh;
+    height: 50vh;
 }
 
 /***********************************HERO************************/
