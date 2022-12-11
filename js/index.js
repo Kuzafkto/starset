@@ -57,7 +57,7 @@ function showSlides2(x) {
 
 
 var slideIndex = [1, 1];
-var slideId = ["mySlides1", "mySlides2"]
+var slideId = ["mySlides1","mySlides2"]
 showDivs(1, 0);
 showDivs(1, 1);
 
