@@ -204,7 +204,7 @@ body {
     padding-top: 5%;
     font-family: sans-serif;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: justify;
     line-height: 1.6;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -703,91 +703,7 @@ footer a {
 
 /*******************************Media Quieries***********************************/
 
-@media only screen and (width>=800px) {
 
-    .topnav .active,
-    .myLinks {
-        font-size: 3em;
-    }
-
-    .topnav a {
-        font-size: 3em;
-    }
-
-    .topnav .fa-bars-menu {
-        font-size: 1em;
-        padding: 0;
-    }
-
-
-    /*ABOUT SECTION*/
-    #abouttext {
-        font-size: 2.2em;
-    }
-
-    /*ABOUT SECTION*/
-    /*albums section*/
-    #cardcol {
-        display: flex;
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
-
-    #albums {
-        height: 50%;
-    }
-
-    .cover img {
-        width: 70%;
-    }
-
-    .transmissions {
-        font-size: 3vw;
-    }
-
-    .vessels p {
-        font-size: 3vw;
-        height: 3.8vw;
-    }
-
-    .divisions {
-        font-size: 3vw;
-    }
-
-    .divisions .coverinfo {
-        display: none;
-    }
-
-    .divisions .coverinfo2 {
-        display: block;
-        font-size: 2vw;
-        font-family: axion;
-        line-height: 1.6;
-    }
-
-    .horizons {
-        font-size: 3vw;
-    }
-
-    .mediarow img {
-        width: 100%;
-    }
-
-    .mediaicon {
-        width: 28%;
-    }
-
-    .prev,
-    .next {
-        font-size: 4em;
-    }
-
-    #mediafooterdiv {
-        height: 9em;
-    }
-
-    /*ALBUMS SECTION*/
-}
 
 @media only screen and (width>=500px) { 
 
@@ -969,6 +885,127 @@ footer a {
         font-size: 2.5em;
     }
 }
+@media only screen and (width>=800px) {
+
+    .topnav .active,
+    .myLinks {
+        font-size: 3em;
+    }
+
+    .topnav a {
+        font-size: 3em;
+    }
+
+    .topnav .fa-bars-menu {
+        font-size: 1em;
+        padding: 0;
+    }
+
+
+    /*ABOUT SECTION*/
+    #abouttext {
+        font-size: 1.5em;
+        overflow-y: hidden;
+        text-align: justify;
+    }
+
+    #aboutlogo {
+        margin-left: 42.5%;
+        margin-right: 42.5%;
+        width: 15%;
+    }
+
+    /*ABOUT SECTION*/
+
+    /*members*/
+    .scrolling-wrapper .card {
+        min-width: 35vw;
+      }
+ 
+    .mediaicon2 img {
+        width: 80%;
+      }
+      #dustintitle{
+        font-size: 3em;
+    }
+    #brocktitle{
+        font-size: 3em;
+    }
+    #adamtitle{
+        font-size: 3em;
+    }
+    #rontitle{
+        font-size: 3em;
+    }
+    /*members*/
+    /*albums section*/
+    #cardcol {
+        display: flex;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #albums {
+        height: 50%;
+    }
+
+    .cover img {
+        width: 70%;
+    }
+
+    .transmissions {
+        font-size: 3vw;
+    }
+
+    .vessels p {
+        font-size: 3vw;
+        height: 3.8vw;
+    }
+
+    .divisions {
+        font-size: 3vw;
+    }
+
+    .divisions .coverinfo {
+        display: none;
+    }
+
+    .divisions .coverinfo2 {
+        display: block;
+        font-size: 2vw;
+        font-family: axion;
+        line-height: 1.6;
+    }
+
+    .horizons {
+        font-size: 3vw;
+    }
+
+    .mediarow img {
+        width: 100%;
+    }
+
+    .mediaicon {
+        width: 28%;
+    }
+
+    .prev,
+    .next {
+        font-size: 4em;
+    }
+
+    #mediafooterdiv {
+        height: 4.5em;
+    }
+    #footersectionsdiv {
+        font-size: 1.5vw;
+      }
+    .fa {
+        font-size: 2vw;
+      }
+
+    /*ALBUMS SECTION*/
+}
 @media only screen and (height<=800px) and (width<=500px){
 
     /*ALBUMS*/
@@ -1027,7 +1064,7 @@ footer a {
     /*ABOUT*/
     #abouttext{
         font-size:1.3em;
-        height: 65%
+        height: 65%;
     }
     /*ABOUT*/
  /*MEMBERS*/
