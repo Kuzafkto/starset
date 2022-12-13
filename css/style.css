@@ -792,8 +792,15 @@ footer a {
         margin-right: 22.5%;
     }
 
+    .mediarow2{
+        margin-top: 1%;
+    }
+
     .mediaicon2 {
         width: 23.3%;
+    }
+    .mediaicon2 img{
+        width: 60%;
     }
 
     /*members section*/
@@ -905,8 +912,8 @@ footer a {
     /*ABOUT SECTION*/
     #abouttext {
         font-size: 1.5em;
-        overflow-y: hidden;
         text-align: justify;
+        height:75%
     }
 
     #aboutlogo {
@@ -926,16 +933,16 @@ footer a {
         width: 80%;
       }
       #dustintitle{
-        font-size: 3em;
+        font-size: 2em;
     }
     #brocktitle{
-        font-size: 3em;
+        font-size: 2em;
     }
     #adamtitle{
-        font-size: 3em;
+        font-size: 2em;
     }
     #rontitle{
-        font-size: 3em;
+        font-size: 2em;
     }
     /*members*/
     /*albums section*/
@@ -1006,47 +1013,27 @@ footer a {
 
     /*ALBUMS SECTION*/
 }
-@media only screen and (height<=800px) and (width<=500px){
-
-    /*ALBUMS*/
-    #cardcol {
-        padding-top: 5%;
-    }
-    .mediarow{
-        margin-top:0;
-    }
-
-    .mediaicon{
-        width: 20%;
-    }
-    .coverinfo {
-        font-family: axion;
-        font-size: 3vw;
-    }
-        /*ALBUMS*/
-
-}
 @media only screen and (height<=800px) and (width<=800px){
 
     /*ALBUMS*/
     .cover img {
-        width: 45%;
+        width: 35%;
       }
       .coverinfo {
-        font-size: 2.5vw;
+        font-size: 2vh;
       }
       .mediarow{
         margin-top: 0;
       }
       .cover .mediaicon img {
-        width: 95%;
+        width: 90%;
       }
       .divisions .coverinfo{
         display: none;
       }
       .divisions .coverinfo2 {
         display: block;
-        font-size: 2.5vw;
+        font-size: 2vh;
         font-family: axion;
         line-height: 1.6;
     }
@@ -1059,6 +1046,43 @@ footer a {
         /*ALBUMS*/
 
 }
+@media only screen and (height<=800px) and (width<=500px){
+
+    .mediarow2 {
+        margin-top: 1%;
+    }
+    .mediaicon2 img {
+        width: 60%;
+      }
+    /*ALBUMS*/
+    #cardcol {
+        padding-top: 5%;
+    }
+
+    #cardcol .card{
+        height: 25%;
+    }
+    .mediarow{
+        margin-top:0;
+        padding-top: 1%;
+    }
+
+    .mediaicon{
+        width: 25%;
+    }
+    .coverinfo {
+        font-family: axion;
+        font-size: 3vw;
+    }
+    .cover img {
+        width: 25%;
+      }
+      .cover .mediarow img {
+        width: 100%;
+      }
+        /*ALBUMS*/
+}
+
 @media only screen and (height<=500px) and (width<=800px) {
 
     /*ABOUT*/
@@ -1239,6 +1263,21 @@ footer a {
           .mediarow2 {
             margin-top: 10%;
           }
+
+          /*Footer*/
+          
+        .fa {
+            font-size: 3.5vw;
+        }
+        #footersectionsdiv{
+            padding-top:2.5%;
+            font-size:2.5vw;
+            padding-bottom: 1%;
+        }
+        #mediafooterdiv{
+            height: 2.5em;
+        }
+          /*Footer*/
 }
 
 /*******************************Media Queries***********************************/
