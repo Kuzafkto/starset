@@ -761,6 +761,7 @@ footer a {
 
     .scrolling-wrapper .card {
         min-width: 55vw;
+        min-height: 85vh;
     }
 
     #brocktitle {
@@ -784,12 +785,14 @@ footer a {
     }
 
     #membersdiv {
-        min-height: 75vh;
+        min-height: 90vh;
     }
 
     .memberimg {
         margin-left: 22.5%;
         margin-right: 22.5%;
+        margin-top: 4%;
+        margin-bottom: 2.5%;
     }
 
     .mediarow2{
@@ -800,7 +803,7 @@ footer a {
         width: 23.3%;
     }
     .mediaicon2 img{
-        width: 60%;
+        width: 50%;
     }
 
     /*members section*/
@@ -857,8 +860,8 @@ footer a {
     #cardcol {
         display: grid;
         grid-template-columns: 50% 50%;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 
     .card {
@@ -1017,16 +1020,17 @@ footer a {
 
     /*ALBUMS*/
     .cover img {
-        width: 35%;
+        width: 25%;
       }
       .coverinfo {
         font-size: 2vh;
       }
       .mediarow{
         margin-top: 0;
+        padding-top: 0;
       }
       .cover .mediaicon img {
-        width: 90%;
+        width: 75%;
       }
       .divisions .coverinfo{
         display: none;
@@ -1038,7 +1042,7 @@ footer a {
         line-height: 1.6;
     }
       .cover p{
-        font-size: 4vw;
+        font-size: 3vw;
       }
       .vessels p{
         height:5vw;
