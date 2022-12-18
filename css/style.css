@@ -21,6 +21,7 @@
 
 html {
     height: -webkit-fill-available;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -803,7 +804,7 @@ footer a {
         width: 23.3%;
     }
     .mediaicon2 img{
-        width: 50%;
+        padding-top: 5%;
     }
 
     /*members section*/
